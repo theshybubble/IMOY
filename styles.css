@@ -14,7 +14,7 @@
 nav
 {
     margin: 10px 20px 20px;
-    font-size: 8px;
+    font-size: 20px;
 }
 
 /* This will show which page is selected according to what is marked as span under nav in the html file */
@@ -66,39 +66,48 @@ footer
 {
     padding: 10px;
     text-align: center;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 /* HOME PAGE CONTENTS START HERE */
+
+.homeContainer
+{
+    border:2px solid darkslateblue;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width:1920px;
+    height:750px;
+   overflow: auto;
+    
+}
 .main-banner
 {
     /* Border just to phisically see limits of div */
-    /*border: 2px solid #FF0000;*/
+    border: 2px solid #FF0000;
     /* This maintains the total size of the box regardless of changing the inside values */
-    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    margin: 10px 20px 20px;
+    min-width: 1920px;
+    height: 750px;
 }
 
 .main-banner img
 {
-    width: 60%;
+    width: 50%;
 }
 
 .slogan-banner
 {
     /* Border just to phisically see limits of div */
-    /*border: 2px solid #FF0000;*/
-    box-sizing: border-box;
+    border: 2px solid #FF0000;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    margin: 10px 20px 20px;
-    height: 80vh;
+    min-width: 1920px;
+    height: 750px;
 }
 
 #slogan
@@ -113,7 +122,7 @@ footer
     justify-content: center;
     position: relative;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     padding: 10px;
 }
 
