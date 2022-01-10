@@ -67,8 +67,8 @@ nav img
 /* FOOTER STARTS HERE */
 footer
 {
+    margin-top: 2%;
     box-sizing: border-box;
-    padding: 2%;
     text-align: center;
     font-size: 1vw;
 }
