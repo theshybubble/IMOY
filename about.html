@@ -22,7 +22,43 @@
         </ul>
         <img src="images/lineDivision.png">
     </nav>
+
+    <div class="paContainer">
+        <div class="content">
+            Ai a minha vida, ai ai ai a minha vida.
+        </div>
     
+        <div class="content">
+            Ai a minha vida, ai ai ai a minha vida.
+        </div>
+    </div>
+
+    <div class="paContainer2">
+        <div class="content">
+            Ai a minha vida, ai ai ai a minha vida.
+        </div>
+    
+        <div class="content">
+            Ai a minha vida, ai ai ai a minha vida.
+        </div>
+    </div>
+
+
+    <script>
+        const target = document.getElementById('container');
+    
+        target.addEventListener('wheel', event => {
+        const toLeft  = event.deltaY < 0 && target.scrollLeft > 0
+        const toRight = event.deltaY > 0 && target.scrollLeft < target.scrollWidth - target.clientWidth
+    
+        if (toLeft || toRight) {
+            event.preventDefault()
+            target.scrollLeft += event.deltaY
+        }
+        })
+    </script>
+    
+    <!-- 
     <div class="homeContainer">
         <div class="main-banner">
             <div class="col" style="margin-left: 50px;">
@@ -81,7 +117,7 @@
         
     </div>
     
-    <script src="script.js"></script>
+    <script src="script.js"></script> -->
     
 
     <!-- Footer starts here -->
