@@ -128,14 +128,15 @@ footer
     /* Border just to phisically see limits of div */
     /*border: 2px solid #FF0000;*/
     /*width: 50%;
-    height: 100%;
-    box-sizing: border-box;*/
+    height: 100%;*/
+    box-sizing: border-box;
     display: flex;
+    padding: 10%;
     align-items: center;
     justify-content: center;
     position: relative;
     text-align: center;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 #aurora-gif
