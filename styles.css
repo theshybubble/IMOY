@@ -163,12 +163,13 @@ footer
 /* Container with all elements of the page*/
 .contact
 {
-    border: 1px solid #FF0000;
+    /*border: 1px solid #FF0000;*/
     box-sizing: border-box;
     display: flex;
-    align-items: right;
-    justify-content: center;
+    align-items: center;
+    justify-content: right;
     margin: 1% 5% 1%;
+    padding-right: 12%;
     height: 75vh;
     background-image: url("images/album.png");
     background-size: 80% 100%;
@@ -188,46 +189,28 @@ footer
 /* Container that keeps polaroids on right side */
 .social-links
 {
-    border: 1px solid #FF0000;
+    /*border: 1px solid #FF0000;*/
     box-sizing: border-box;
-    width: 80%;
-    height: 100%;
+    width: 40%;
+    height: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Conatiner around each polaroid*/
-.polaroid-insta
+.polaroid-container
 {
-    border: 1px solid #FF0000;
-    float: left;
-    width: 20%;
+    /*border: 1px solid #FF0000;*/
+    width: 35%;
 }
 
-.polaroid-tik
-{
-    border: 1px solid #FF0000;
-    float: right;
-    width: 20%;
-}
-
-.polaroid-twit
-{
-    border: 1px solid #FF0000;
-    float: left;
-    width: 20%;
-}
-
-.polaroid-face
-{
-    border: 1px solid #FF0000;
-    float: right;
-    width: 20%;
-}
 
 /* Images specifications */
 .polaroids-img
 {   
-    display: block;
-    margin: 0 auto;
     width: 100%;
 }
 
