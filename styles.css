@@ -149,13 +149,14 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    
+    height: 100%;
+    width: 35%;
 }
 
 #aurora-gif img
 {
     width: 100%;
+    height: 100%;
 }
 
 /* CONTACT PAGE STARTS HERE */
@@ -191,53 +192,35 @@ footer
     box-sizing: border-box;
     width: 80%;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: right;
 }
 
 /* Conatiner around each polaroid*/
 .polaroid-insta
 {
-    border: 2px solid #FF0000;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
+    border: 1px solid #FF0000;
+    float: left;
+    width: 20%;
 }
 
 .polaroid-tik
 {
-    border: 2px solid #FF0000;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    margin: 10px;
-    position: absolute;
+    border: 1px solid #FF0000;
+    float: right;
+    width: 20%;
 }
 
 .polaroid-twit
 {
-    border: 2px solid #FF0000;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    margin: 10px;
-    position: absolute;
+    border: 1px solid #FF0000;
+    float: left;
+    width: 20%;
 }
 
 .polaroid-face
 {
-    border: 2px solid #FF0000;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    margin: 10px;
-    position: absolute;
+    border: 1px solid #FF0000;
+    float: right;
+    width: 20%;
 }
 
 /* Images specifications */
