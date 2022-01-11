@@ -219,9 +219,9 @@ footer
 
 /* About page content starts here */
 /* to make the parallax effect work*/
+/*Container that will have the images and text*/
 .paContainer
 {
-    /*border:2px solid darkslateblue;*/
     /*background-color: blanchedalmond;*/
     box-sizing: border-box;
     position: relative;
@@ -234,30 +234,36 @@ footer
     white-space: nowrap;
 }
 
+/* Parallax image container */
 .paContainer2
 {
-    min-width: 70%;
+    width: 70%;
+    height: 70vh;
     display:inline-block;
+    white-space: nowrap;
 
-    background-image: url("images/teste.jpg");
+    background-image: url("images/teste4.jpg");
     background-attachment: fixed;
+    
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
+/* Parallax image container */
 .paContainer3
 {
-    min-width: 70%;
+    width: 70%;
+    height: 70vh;
     display:inline-block;
+    white-space: nowrap;
 
-    background-image: url("images/teste3.jpg");
+    background-image: url("images/teste5.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     transition: background-position-x 1s;
 }
+
 
 /* hide the scrollbar*/ 
 .paContainer::-webkit-scrollbar
@@ -272,9 +278,11 @@ footer
     height: 70vh;
     background-color: blanchedalmond;
     display:inline-block;
+    white-space: nowrap;
     position: relative;
-    margin-right: 40%;
+    
 }
+
 
 div.card{
     height: 530px;
