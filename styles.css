@@ -232,6 +232,12 @@ footer
     overflow-y: hidden;
     margin-top: 1%;
     white-space: nowrap;
+}
+
+.paContainer2
+{
+    min-width: 70%;
+    display:inline-block;
 
     background-image: url("images/teste.jpg");
     background-attachment: fixed;
@@ -240,12 +246,12 @@ footer
     background-size: cover;
 }
 
-.paContainer2
+.paContainer3
 {
-    min-width: 100%;
+    min-width: 70%;
     display:inline-block;
 
-    background-image: url("images/teste2.jpg");
+    background-image: url("images/teste3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
