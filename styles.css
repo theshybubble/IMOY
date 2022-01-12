@@ -71,6 +71,7 @@ footer
     box-sizing: border-box;
     text-align: center;
     font-size: 1vw;
+    z-index: 10;
 }
 
 /* HOME PAGE CONTENTS START HERE */
@@ -217,9 +218,10 @@ footer
     box-shadow: 2px 2px 8px rgb(161, 161, 161);
 }
 
-/* About page content starts here */
+/* Studio page content starts here */
 /* to make the parallax effect work*/
 /*Container that will have the images and text*/
+/* This container is used on About, Studio and Awareness pages*/
 .paContainer
 {
     /*background-color: blanchedalmond;*/
@@ -237,14 +239,13 @@ footer
 /* Parallax image container */
 .paContainer2
 {
-    width: 70%;
+    width: 60%;
     height: 70vh;
     display:inline-block;
     white-space: nowrap;
 
-    background-image: url("images/teste4.jpg");
+    background-image: url("images/Studio_Carolina.gif");
     background-attachment: fixed;
-    
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -252,12 +253,40 @@ footer
 /* Parallax image container */
 .paContainer3
 {
-    width: 70%;
+    width: 60%;
     height: 70vh;
     display:inline-block;
     white-space: nowrap;
 
-    background-image: url("images/teste5.jpg");
+    background-image: url("images/Studio_Ines.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-position-x 1s;
+}
+
+.paContainer4
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/Studio_Carlos.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-position-x 1s;
+}
+
+.paContainer5
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/Studio_Pedro.gif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -274,15 +303,111 @@ footer
 /* Where the text will be intregated */
 .content 
 {
-    width: 40%;
+    width: 50%;
     height: 70vh;
+    box-sizing: border-box;
     background-color: blanchedalmond;
     display:inline-block;
     white-space: nowrap;
-    position: relative;
-    
+    position: relative; 
+    vertical-align: top;
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2vw;
 }
 
+/* About page content starts here */
+.paAbout
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/about1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paAbout2
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/about_Aurora.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paAbout3
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/about_Iris.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paAbout4
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/about_Rosa.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paAwareness
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/awareness1.jpg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paAwareness2
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/awareness2.jpg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paAwareness3
+{
+    width: 60%;
+    height: 70vh;
+    display:inline-block;
+    white-space: nowrap;
+
+    background-image: url("images/awareness3.jpg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 div.card{
     height: 530px;
