@@ -409,31 +409,14 @@ footer
     background-repeat: no-repeat;
 }
 
-div.card{
-    height: 530px;
-    align-items: center;
-    justify-content: center;
+.download-img:hover
+{   
+    background-image: url("images/download_hover.png");
+    opacity: 0;
+    transition: opacity 0.25s;
 }
 
-#cardblue{
-    background-color: rgb(110, 197, 255);
-    width: 350px;
-}
-
-#cardtext{
-    background-color: transparent;
-    width: 300px;
-    border: transparent;
-    align-items: center;
-    text-align: center;
-    margin-left: 25px;
-}
-
-#cardred{
-    background-color: rgb(255, 93, 93);
-    width: 350px;
-}
-
-#card-img{
-    width: 320px;
+download:hover
+{
+    opacity: 1;
 }
